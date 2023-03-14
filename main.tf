@@ -1,7 +1,7 @@
 
 
 resource "aws_security_group" "terra_sg" {
-  name = "terra-sg"
+  name = "terra-sg-cicd"
   description = "terraform course security group"
   vpc_id = "vpc-06f4255c5722106aa"
 
